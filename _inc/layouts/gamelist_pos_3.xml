@@ -1,0 +1,19 @@
+<!--
+author:			will
+-->
+
+
+<theme>
+
+    <view name="basic, detailed,video">
+
+		<textlist name="gamelist">
+			<pos>0.400 0.060</pos>
+			<size>0.200 0.790</size>
+			<lineSpacing>1.375</lineSpacing>
+
+		</textlist>
+		
+	</view>
+
+</theme>

@@ -1,0 +1,16 @@
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../theme.xml</include>
+
+	<view name="system">
+<text name="system_description" extra="true">
+			<text>This console, known as the Mega Drive everywhere except in the USA where it was renamed Genesis, was released by Sega in 1988</text>
+		</text>
+
+             	</view>
+  
+	<view name="basic,detailed,video">
+               
+	</view>  
+
+</theme>

@@ -1,0 +1,16 @@
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../theme.xml</include>
+
+	<view name="system">
+<text name="system_description" extra="true">
+			<text>The Game Gear is an 8-bit fourth generation handheld game console released by Sega on October 6, 1990 in Japan</text>
+		</text>
+
+             	</view>
+  
+	<view name="basic,detailed,video">
+               
+	</view>  
+
+</theme>

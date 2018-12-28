@@ -1,0 +1,33 @@
+<!--
+author:			will
+-->
+
+
+<theme>
+    <formatVersion>3</formatVersion>
+
+
+    <view name="video">
+				
+
+          <image name="logo">
+		        <pos>0.806 0.158</pos>
+                        <origin>0.5 0.5</origin>
+                        <maxSize>0.235 0.140</maxSize>
+                       <zIndex>-202</zIndex>
+		</image>
+
+	</view>
+	
+    <view name="detailed,basic">
+				
+
+          <image name="logo">
+		        <pos>0.806 0.158</pos>
+                        <origin>0.5 0.5</origin>
+                        <maxSize>0.235 0.140</maxSize>
+		</image>
+
+	</view>
+	
+</theme>

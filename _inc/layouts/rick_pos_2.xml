@@ -1,0 +1,21 @@
+<!--
+author:			will
+-->
+
+
+<theme>
+    <formatVersion>3</formatVersion>
+
+    <view name="basic, detailed, video">
+				
+
+            <image name="header1" extra="true">
+		        <pos>0.326 0.480</pos>
+                        <zIndex>43</zIndex>
+			<maxSize>0.265 0.500</maxSize>
+			<origin>0 0</origin>
+		</image>
+
+	</view>
+	
+</theme>

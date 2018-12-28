@@ -1,0 +1,16 @@
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../theme.xml</include>
+
+	<view name="system">
+<text name="system_description" extra="true">
+			<text>The Atari ST, STE, TT, and Falcon were a series of personal computers released by Atari starting in 1985</text>
+		</text>
+
+             	</view>
+  
+	<view name="basic,detailed,video">
+               
+	</view>  
+
+</theme>

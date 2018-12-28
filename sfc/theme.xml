@@ -1,0 +1,16 @@
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../theme.xml</include>
+
+	<view name="system">
+<text name="system_description" extra="true">
+			<text>the Super Famicom or SFC for short. In South Korea, it is known as the Super Comboy</text>
+		</text>
+
+             	</view>
+  
+	<view name="basic,detailed,video">
+               
+	</view>  
+
+</theme>

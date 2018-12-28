@@ -1,0 +1,16 @@
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../theme.xml</include>
+
+	<view name="system">
+<text name="system_description" extra="true">
+			<text>ScummVM is a program which allows you to run certain classic graphical point-and-click adventure games, provided you already have their data files</text>
+		</text>
+
+             	</view>
+  
+	<view name="basic,detailed,video">
+               
+	</view>  
+
+</theme>

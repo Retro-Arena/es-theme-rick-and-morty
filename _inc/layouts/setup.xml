@@ -1,0 +1,83 @@
+<!--
+author:			will
+-->
+
+
+<theme>
+    <formatVersion>3</formatVersion>
+	
+	<feature supported="carousel">
+
+		<view name="system">
+		
+		<image name="background" extra="true">
+			<size>0 1</size>
+		</image>
+
+			<carousel name="systemcarousel">
+				<pos>-0.05 0.3</pos>
+				<size>1.1 0.4</size>
+				<logoSize>0.2 0.3851851851851852</logoSize>
+				<maxLogoCount>5</maxLogoCount>
+				<zIndex>101</zIndex>
+			</carousel>
+
+			<text name="systemInfo">
+				<pos>0.00 0.050</pos>
+				<size>1 0.050</size>
+				<zIndex>102</zIndex>				
+			</text>
+			
+
+		<image name="system_help" extra="true">
+			<size>0 0.0703703703703704</size>
+		</image>	
+
+		</view>
+
+	</feature>	
+
+    <view name="basic, detailed, video">
+			
+		<image name="background" extra="true">
+			<size>0 1</size>
+		</image>
+		
+                <image name="consoles" extra="true">
+         <path>./../art/consoles${region}/${system.theme}.png</path>
+		</image> 
+
+		<image name="gamelist_help" extra="true">
+			<size>0 0.0703703703703704</size>
+		</image>
+		
+		<image name="md_image">
+			<maxSize>0.2416666666666667 0.4296296296296296</maxSize>
+			<origin>0.5 0.5</origin>
+		</image>
+
+		<text name="md_developer, md_genre">
+			<size>0.25 0.0333333333333333</size>
+		</text>		
+		
+		<text name="md_playcount">
+			<alignment>left</alignment>
+			<size>0.09375 0.0333333333333333</size>
+		</text>
+		
+		<text name="md_players">
+			<alignment>left</alignment>
+			<size>0.144 0.02</size>
+		</text>
+                   <rating name="md_rating">
+			<size>0.0166666666666667 0.0296296296296296</size>		
+			<filledPath>./$system/_inc/icon_filled.svg</filledPath>
+			<unfilledPath>./$system/_inc/icon_empty.svg</unfilledPath>
+		</rating>
+
+
+
+		 
+	</view>
+	
+</theme>

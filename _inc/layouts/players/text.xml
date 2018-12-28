@@ -1,0 +1,21 @@
+<theme>
+
+    <formatVersion>3</formatVersion>
+
+	<view name="basic, detailed, video">
+		
+		<text name="md_players">
+			<fontPath>./_inc/fonts/Exo2-RegularCondensed.otf</fontPath>
+			<forceUppercase>1</forceUppercase>
+			<fontSize>0.03</fontSize>
+			<color>000000</color>
+			<alignment>left</alignment>
+			<zIndex>100</zIndex>
+		</text>
+
+		
+
+	</view>
+		
+	
+</theme>

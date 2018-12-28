@@ -1,0 +1,57 @@
+<theme>
+
+    <formatVersion>3</formatVersion>
+
+	<view name="system">
+	
+		<image name="bg_color" extra="true">
+			<path>./colors/rickbg.png</path>
+			<size>1 1</size>
+			<origin>0 0</origin>
+			<pos>0 0</pos>
+			<color>ffffff</color>
+			<zIndex>-201</zIndex>
+		</image>
+		
+		</view>
+			<view name="basic">
+	
+		<image name="bg_color" extra="true">
+			<path>./colors/basicbg.png</path>
+			<size>1 1</size>
+			<origin>0 0</origin>
+			<pos>0 0</pos>
+			<color>ffffff</color>
+			<zIndex>-201</zIndex>
+		</image>
+		
+		</view>
+<view name="detailed, video">
+		<image name="bg_color" extra="true">
+			<path>./colors/bg.png</path>
+			<size>1 1</size>
+			<origin>0 0</origin>
+			<pos>0 0</pos>
+			<color>ffffff</color>
+			<zIndex>-201</zIndex>
+		</image>
+		<text name="publisher_label, developer_label, genre_label, rating_label, played_label" extra="true">
+			<color>9eff3d</color>
+		</text>		
+		
+		<datetime name="md_releasedate">
+			<color>9eff3d</color>
+		</datetime>	
+		
+		<textlist name="gamelist">
+			<selectorColor>abe206</selectorColor>
+			<selectedColor>abe206</selectedColor>
+			<primaryColor>ffffff9a</primaryColor>
+			<secondaryColor>71cd0c</secondaryColor>
+		</textlist>		
+		
+		
+	</view>
+		
+	
+</theme>

@@ -1,0 +1,32 @@
+<theme>
+    <formatVersion>3</formatVersion>
+
+	<variables>
+		<region>_1</region>
+	</variables>	
+	
+	<view name="system">
+			
+					<image name="header" extra="true">
+			<path>./../art/bar.png</path>
+                        <tile>false</tile>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
+                        <zIndex>40</zIndex>
+                                       </image>
+	</view>
+	
+	<view name="basic, detailed, video">
+			<image name="header" extra="true">
+			<path>./../art/venom4.png</path>
+                        <tile>false</tile>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
+                        <zIndex>40</zIndex>
+                                       </image>
+
+	</view>
+
+</theme>

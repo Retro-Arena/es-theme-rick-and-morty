@@ -1,0 +1,248 @@
+<theme>
+
+    <formatVersion>3</formatVersion>
+	
+	<view name="system">
+	
+			<carousel name="systemcarousel">
+				<type>vertical_wheel</type>
+				<pos>0 0</pos>
+				<size>1 1</size>
+				<origin>0 0</origin>
+				<color>FFFFFF00</color>
+				<logoScale>1.1</logoScale>
+				<logoSize>0.2 0.2</logoSize>
+				<logoRotation>-6.5</logoRotation>
+				<logoRotationOrigin>3.5 .5</logoRotationOrigin>
+				<logoAlignment>right</logoAlignment>
+				<maxLogoCount>7</maxLogoCount>
+				<zIndex>75</zIndex>
+			</carousel>
+
+		<text name="systemInfo">
+			<backgroundColor>00000000</backgroundColor>
+			<color>ffffff</color>
+			<fontPath>./art/Exo2-Bold.ttf</fontPath>
+			<fontSize>0.0592592592592593</fontSize>
+		</text>	
+      	   
+         <text name="system_description" extra="true">
+            <pos>0.500 0.730</pos>
+            <color>ffffff</color>
+            <fontPath>./art/Exo2-Bold.ttf</fontPath>
+            <fontSize>0.025</fontSize>
+            <size>0.250 0.330</size>
+            <alignment>left</alignment>
+            <lineSpacing>1.0</lineSpacing>
+            <zIndex>42</zIndex>
+		  </text>
+	
+		<helpsystem name="help">
+			<pos>2 2</pos>
+			<textColor>000000</textColor>
+			<iconColor>000000</iconColor>
+			<fontPath>./art/TinyUnicode.ttf</fontPath>
+			<fontSize>0.06666666666666</fontSize>
+		</helpsystem>	
+
+		<image name="background" extra="true">
+
+		</image>
+
+		<image name="logo">
+			<path>./art/icons${region}/${system.theme}.png</path>
+		</image>
+						
+		
+	</view>
+
+	
+	
+
+    <view name="video">
+		
+		<video name="md_video">
+			<showSnapshotNoVideo>false</showSnapshotNoVideo>
+			<showSnapshotDelay>false</showSnapshotDelay>
+			<delay>0</delay>			
+		</video>
+		
+		<image name="md_marquee">
+			 <zIndex>42</zIndex>
+		</image>
+
+	</view>	
+
+	
+	
+	
+	<view name="basic, detailed, video">
+	
+		<helpsystem name="help">
+			<pos>2 2</pos>
+			<textColor>000000</textColor>
+			<iconColor>000000</iconColor>
+			<fontPath>./art/Exo2-SemiBoldCondensed.otf</fontPath>
+			<fontSize>0.06666666666666</fontSize>
+		</helpsystem>	
+	
+		<image name="logo">
+         <path>./art/icons${region}/${system.theme}.png</path>
+		</image>
+
+                    <image name="header2" extra="true">
+			<path>./art/consoles/rick.png</path>
+
+                </image>
+                    <image name="header1" extra="true">
+			<path>./art/consoles/rick2.png</path>
+
+                </image>
+                    <image name="header3" extra="true">
+			<path>./art/consoles/rick3.png</path>
+
+                </image>	
+		
+<text name="md_lbl_rating, md_lbl_releasedate, md_lbl_genre, md_lbl_players, md_lbl_playcount, md_lbl_developer">
+			<forceUppercase>1</forceUppercase>
+			<fontPath>./_inc/fonts/Exo2-BoldCondensed.otf</fontPath>
+			<fontSize>0.03</fontSize>
+			<size>0.144 0.02</size>
+			<color>ffffff</color>
+			<zIndex>42</zIndex>
+		</text>
+		<text name="md_lbl_rating">
+			<pos>0.025 0.930</pos>
+		</text>
+		<text name="md_lbl_players">
+			<pos>0.195 0.930</pos>
+		</text>		
+		<text name="md_players">
+			<pos>0.260 0.930</pos>
+		</text>
+		<text name="md_lbl_releasedate">
+			<color>ffffff</color>
+                        <pos>0.290 0.930</pos>
+		</text>		
+		<datetime name="md_releasedate">
+	          <color>ffffff</color>
+                  <pos>0.360 0.929</pos>			
+		</datetime>			
+		<text name="md_lbl_genre">
+			<pos>0.440 0.930</pos>
+		</text>		
+		<text name="md_genre">
+			<pos>0.490 0.930</pos>
+		</text>
+		
+		<text name="md_lbl_lastplayed">
+		    <color>ffffff</color>
+			<pos>-0.2269 0.145</pos>
+                        <zIndex>-300</zIndex>
+		</text>
+		
+		<datetime name="md_lastplayed">
+		    <color>ffffff</color>
+			<pos>-0.2390 0.138</pos>
+                        <zIndex>-300</zIndex>
+		</datetime>
+		<text name="md_lbl_publisher,md_publisher ">
+			<color>393a3b</color>
+			<forceUppercase>1</forceUppercase>
+			<fontSize>0.02</fontSize>
+			<size>0.2 0.2</size>
+			<pos>1 1</pos>
+			<pos>-0.2390 0.138</pos>
+                        <zIndex>-300</zIndex>
+		</text>	
+
+		<text name="md_lbl_playcount">
+		    <color>ffffff</color>
+			<pos>0.645 0.930</pos>
+		</text>
+		
+		<text name="md_playcount">
+		    <color>ffffff</color>
+			<pos>0.745 0.930</pos>
+		</text>
+		
+		<text name="md_lbl_developer">
+			<pos>0.765 0.930</pos>
+		                        </text>
+		
+		<text name="md_developer">
+			<pos>0.850 0.930</pos>
+		        <fontSize>0.03</fontSize>
+                </text>
+		<text name="md_genre, md_playcount, md_releasedate, md_developer">
+			<forceUppercase>1</forceUppercase>
+			<fontPath>./_inc/fonts/Exo2-RegularCondensed.otf</fontPath>
+			<fontSize>0.03</fontSize>
+			<size>0.144 0.02</size>
+			<color>ffffff</color>
+			<zIndex>42</zIndex>
+		</text>
+		<text name="md_players">
+			<fontPath>./_inc/fonts/Exo2-RegularCondensed.otf</fontPath>
+			<forceUppercase>1</forceUppercase>
+			<fontSize>0.03</fontSize>
+			<color>ffffff</color>
+			<alignment>left</alignment>
+			<zIndex>100</zIndex>
+		</text>
+		
+		<text name="md_description">
+			<forceUppercase>1</forceUppercase>
+			<fontPath>./art/Exo2-SemiBoldCondensed.otf</fontPath>
+			<fontSize>0.03</fontSize>
+			<alignment>left</alignment>
+			<lineSpacing>1</lineSpacing>
+			<color>ffffff</color>
+
+		</text>
+		
+		<datetime name="md_lastplayed">
+		<pos>1 1</pos>
+		<size>0.2 0.2</size>
+		</datetime>
+		
+		<datetime name="md_releasedate">
+			<fontPath>./art/Exo2-SemiBoldCondensed.otf</fontPath>
+			<size>0.144 0.02</size>
+			<fontSize>0.03</fontSize>
+                        <color>ffffff</color>			
+		</datetime>		
+	
+
+		<rating name="md_rating">
+			<pos>0.080 0.920</pos>
+			<zIndex>42</zIndex>
+			<filledPath>./_inc/fonts/rating_filled.svg</filledPath>
+			<unfilledPath>./_inc/fonts/rating_empty.svg</unfilledPath>
+			<size>0.032 0.04</size>
+		</rating>
+		
+		<textlist name="gamelist">
+                        <fontSize>0.028</fontSize>
+			<alignment>left</alignment>
+			<lineSpacing>2.3</lineSpacing>
+			<alignment>center</alignment>
+			<horizontalMargin>0.01</horizontalMargin>
+			<fontPath>./_inc/fonts/Exo2-BoldCondensed.otf</fontPath>
+			<fontSize>0.025</fontSize>
+			<forceUppercase>1</forceUppercase>
+			<selectorColor>ffffff90</selectorColor>
+			<selectedColor>FFFFFF</selectedColor>
+			<primaryColor>ffffff</primaryColor>
+			<secondaryColor>FFFFFF75</secondaryColor>
+                       
+		</textlist>		
+				
+
+		<sound name="launch">
+			<path>./sounds/se_sys_click_game.wav</path>
+		</sound>		
+
+	</view>
+	
+</theme>

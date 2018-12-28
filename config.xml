@@ -1,0 +1,28 @@
+<!--
+theme name:		??????
+version:		1.0
+author:			will
+-->
+
+<theme>
+    <formatVersion>3</formatVersion>
+	
+<!-- Choose your style/overlay (1,2,3,4) -->	
+	<include>./style/4.xml</include>	
+	
+<!-- Choose your layout (a,b,c,d) -->
+	<include>./_inc/layouts/layoutd.xml</include>
+	
+<!-- Choose your gamelist position (pos 1for style 1) and so on -->	
+	<include>./_inc/layouts/gamelist_pos_3.xml</include> 
+
+<!-- Choose your background -->	
+    <include>./_inc/layouts/background/rick.xml</include>
+
+<!-- Choose your rating symbol (heart or bead) -->	
+	<include>./_inc/layouts/rating/custom.xml</include>	
+
+<!-- Choose how number of players is displayed (icon or text) -->	
+	<include>./_inc/layouts/players/icon.xml</include>		
+
+</theme>

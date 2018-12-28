@@ -1,0 +1,16 @@
+<theme>
+
+    <formatVersion>3</formatVersion>
+
+	<view name="basic, detailed, video, system">
+		
+		<rating name="md_rating">
+			<pos>0.080 0.920</pos>
+			<zIndex>42</zIndex>
+			<size>0.032 0.02</size>		
+		</rating>
+
+	</view>
+		
+	
+</theme>

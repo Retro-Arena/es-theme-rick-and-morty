@@ -1,0 +1,21 @@
+<!--
+author:			will
+-->
+
+
+<theme>
+    <formatVersion>3</formatVersion>
+
+    <view name="basic, detailed, video">
+				
+
+          <image name="md_image">
+		        <pos>0.185 0.666</pos>
+
+			<maxSize>0.277 0.365</maxSize>
+			<origin>0.5 0.5</origin>
+		</image>
+
+	</view>
+	
+</theme>
