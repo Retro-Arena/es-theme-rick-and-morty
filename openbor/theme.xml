@@ -4,13 +4,14 @@
 
 	<view name="system">
 <text name="system_description" extra="true">
-			<text>Designed to look like a friendly typewriter, the Atari 800 is an expandable system with two easily accessable cartridge ports</text>
+			<text>Beats of Rage is an open-source 2D customisable video game engine designed by Senile Teams</text>
 		</text>
-
+            
+                
              	</view>
   
 	<view name="basic,detailed,video">
-               
+
 	</view>  
 
 </theme>
