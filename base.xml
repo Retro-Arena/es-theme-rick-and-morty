@@ -1,9 +1,9 @@
 <theme>
 
     <formatVersion>3</formatVersion>
-	
+	<!-------system screen------->		
 	<view name="system">
-	
+	<!-------system wheel------->	
 			<carousel name="systemcarousel">
 				<type>vertical_wheel</type>
 				<pos>0 0</pos>
@@ -18,14 +18,14 @@
 				<maxLogoCount>7</maxLogoCount>
 				<zIndex>75</zIndex>
 			</carousel>
-
+<!-------games aviliable ------->
 		<text name="systemInfo">
 			<backgroundColor>00000000</backgroundColor>
 			<color>ffffff</color>
 			<fontPath>./art/Exo2-Bold.ttf</fontPath>
 			<fontSize>0.0592592592592593</fontSize>
 		</text>	
-      	   
+      	   <!-------system description ------->
          <text name="system_description" extra="true">
             <pos>0.500 0.730</pos>
             <color>ffffff</color>
@@ -48,7 +48,7 @@
 		<image name="background" extra="true">
 
 		</image>
-
+<!-------path for your logos ------->
 		<image name="logo">
 			<path>./art/icons${region}/${system.theme}.png</path>
 		</image>
@@ -75,7 +75,7 @@
 
 	
 	
-	
+	<!------- this for picture thats you want on basic detailed and video------->		
 	<view name="basic, detailed, video">
 	
 		<helpsystem name="help">
@@ -102,7 +102,7 @@
 			<path>./art/consoles/rick3.png</path>
 
                 </image>	
-		
+		<!-------video and detailed  ------->
 <text name="md_lbl_rating, md_lbl_releasedate, md_lbl_genre, md_lbl_players, md_lbl_playcount, md_lbl_developer">
 			<forceUppercase>1</forceUppercase>
 			<fontPath>./_inc/fonts/Exo2-BoldCondensed.otf</fontPath>
@@ -221,7 +221,7 @@
 			<unfilledPath>./_inc/fonts/rating_empty.svg</unfilledPath>
 			<size>0.032 0.04</size>
 		</rating>
-		
+		<!-------games list ------->
 		<textlist name="gamelist">
                         <fontSize>0.028</fontSize>
 			<alignment>left</alignment>
