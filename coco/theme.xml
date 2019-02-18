@@ -1,0 +1,17 @@
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../theme.xml</include>
+
+	<view name="system">
+<text name="system_description" extra="true">
+			<text>The TRS-80 Micro Computer System is a desktop microcomputer launched in 1977 and sold by Tandy Corporation through their Radio Shack stores</text>
+		</text>
+               
+                
+             	</view>
+  
+	<view name="basic,detailed,video">
+               
+	</view>  
+
+</theme>

@@ -1,0 +1,17 @@
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../theme.xml</include>
+
+	<view name="system">
+<text name="system_description" extra="true">
+			<text>The Watara Supervision, also known as the QuickShot Supervision in the UK, is a monochrome handheld game console, originating from Asia</text>
+		</text>
+               
+                
+             	</view>
+  
+	<view name="basic,detailed,video">
+               
+	</view>  
+
+</theme>

@@ -1,0 +1,17 @@
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../theme.xml</include>
+
+	<view name="system">
+<text name="system_description" extra="true">
+			<text>The British Broadcasting Corporation Microcomputer System, or BBC Micro, is a series of microcomputers and associated peripherals designed and built by the Acorn Computer company</text>
+		</text>
+               
+                
+             	</view>
+  
+	<view name="basic,detailed,video">
+               
+	</view>  
+
+</theme>

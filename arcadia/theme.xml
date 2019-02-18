@@ -1,0 +1,17 @@
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../theme.xml</include>
+
+	<view name="system">
+<text name="system_description" extra="true">
+			<text>Arcadia 2001 is a second-generation 8-bit console released by Emerson Radio in May 1982, several months before the release of ColecoVision</text>
+		</text>
+               
+                
+             	</view>
+  
+	<view name="basic,detailed,video">
+               
+	</view>  
+
+</theme>

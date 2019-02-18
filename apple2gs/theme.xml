@@ -1,0 +1,17 @@
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../theme.xml</include>
+
+	<view name="system">
+<text name="system_description" extra="true">
+			<text>The Apple IIGS (styled as IIGS), the fifth and most powerful of the Apple II family, is a 16-bit personal computer produced by Apple Computer, Inc</text>
+		</text>
+               
+                
+             	</view>
+  
+	<view name="basic,detailed,video">
+               
+	</view>  
+
+</theme>

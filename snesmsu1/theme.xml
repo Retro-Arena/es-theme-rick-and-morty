@@ -1,0 +1,17 @@
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../theme.xml</include>
+
+	<view name="system">
+<text name="system_description" extra="true">
+			<text>MSU1, also named "Media Streaming Unit revision 1", is a homemade enhancement chip made by byuu for the SNES.It allows the SNES to have 4 GB of storage space and CD quality Stereo Audio</text>
+		</text>
+               
+                
+             	</view>
+  
+	<view name="basic,detailed,video">
+               
+	</view>  
+
+</theme>
